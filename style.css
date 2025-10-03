@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lexend', sans-serif;
+}
+
+body {
+  background-color: #c9a7d7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+.input {
+  background: #9b59b6;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 11.25px 11.25px 2.25px 0 rgba(0, 0, 0, 0.69);
+  width: 400px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.input h1 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: white;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+#form-tarefa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+#input-tarefa {
+  width: 90%;
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  font-size: 16px;
+}
+
+#button-add-tarefa {
+  background: #a020f0;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+}
+
+#button-add-tarefa:hover {
+  background: #8b1ccf;
+  transform: scale(1.05);
+}
+
+.list {
+  background: #9b59b6;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow:  11.25px 11.25px 2.25px 0 rgba(0, 0, 0, 0.69);
+  width: 400px;
+}
+
+.list h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: white;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+#list-tarefas {
+  list-style: none;
+  padding: 0;
+}
+
+#list-tarefas li {
+  background: white;
+  margin: 10px 0;
+  padding: 12px 15px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 16px;            
+}
+
+#list-tarefas li input[type="checkbox"] {
+  accent-color: purple;
+  transform: scale(1.3);}
